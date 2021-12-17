@@ -24,6 +24,7 @@ export const Colors = {
     Rinkeby: '#f6c343',
     Goerli: '#3099f2',
     Kovan: '#9064ff',
+    optikov: '#9064ff',
     xDai: '#16304f',
     Localhost: '#d6d9dc',
     Hardhat: '#fff100',
