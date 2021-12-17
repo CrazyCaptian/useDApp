@@ -43,5 +43,7 @@ function getExplorerLink(network: string, blockNumber: number) {
       return `https://kovan.etherscan.io/block/${blockNumber}`
     case 'xDai':
       return `https://blockscout.com/xdai/mainnet/blocks/${blockNumber}/transactions`
+    case 'optikov':
+      return `https://kovan-optimistic.etherscan.io/txs?batch={blockNumber}`
   }
 }
