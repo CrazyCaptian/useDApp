@@ -16,6 +16,8 @@ export function chainIdToNetwork(chainId: number) {
       return 'Localhost'
     case 31337:
       return 'Hardhat'
+	  case 69:
+	  return 'optikov'
     default:
       return chainId.toString()
   }
