@@ -614,7 +614,7 @@ List of intended supported chains. If a user tries to connect to an unsupported 
 List of intended supported chain configs. If a user tries to connect to an unsupported chain an error value will be returned by `useEthers`.
 
 ***Default value:***
-``[Localhost, Hardhat, Mainnet, Ropsten, Rinkeby, Goerli, Kovan...]``
+``[Localhost, Hardhat, Mainnet, Ropsten, Rinkeby, Goerli, optikov, Kovan...]``
 
 Check the full list in https://github.com/EthWorks/useDApp/tree/master/packages/core/src/model/chain
 
@@ -798,7 +798,7 @@ Enum that represents chain ids.
 
 **Values:**
 
-``Mainnet, Goerli, Kovan, Rinkeby, Ropsten, BSC, xDai, Polygon, Moonriver, Mumbai, Harmony, Theta, Palm, Fantom, Avalanche, Songbird``
+``Mainnet, Goerli, Kovan, Rinkeby, Ropsten, BSC, xDai, Polygon, Moonriver, Mumbai, Harmony, Theta, Palm, Fantom, Avalanche, Songbird, optikov``
 
 Helpers
 *******
